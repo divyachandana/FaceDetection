@@ -1,0 +1,5 @@
+darknet/training/tello/dataset/41.JPG
+darknet/training/tello/dataset/42.jpg
+darknet/training/tello/dataset/43.heic
+darknet/training/tello/dataset/44.JPG
+darknet/training/tello/dataset/45.JPEG
