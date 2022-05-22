@@ -1,5 +1,5 @@
 classes	= 1
-train  	= darknet/training/tello/train.txt
-valid  	= darknet/training/tello/test.txt
-names 	= darknet/training/tello/tello.names
-backup 	= darknet/backup/
+train  	= ./training/tello/train.txt
+valid  	= ./training/tello/test.txt
+names 	= ./training/tello/tello.names
+backup 	= ./backup
