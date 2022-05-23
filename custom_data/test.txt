@@ -1,0 +1,3 @@
+../drive/MyDrive/facedetection/custom_data/labels/img54.jpg
+../drive/MyDrive/facedetection/custom_data/labels/img2.jpg
+../drive/MyDrive/facedetection/custom_data/labels/img38.jpg

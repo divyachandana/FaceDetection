@@ -3,10 +3,10 @@ import random
 from tqdm import tqdm
 def autosplit():
     weights = (.9,.1)
-    path_dir = './training/tello/dataset'
+    path_dir = './custom_data/labels'
     path_save = './training/tello'
     path = Path(path_dir)
-    files = list(path.rglob('*.jpeg'))
+    files = list(path.rglob('*.jpg'))
     n = len(files)
     indices = random.choices([0,1], weights=weights, k=n)
     txt = ['train.txt', 'test.txt']

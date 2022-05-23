@@ -3,7 +3,8 @@
 *.csv
 *.out
 *.png
-# *.jpg
+*.jpg
+*.jpeg
 *.pyc
 old/
 mnist/
