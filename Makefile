@@ -3,7 +3,7 @@ CUDNN=1
 CUDNN_HALF=1 
 OPENCV=1
 OPENMP=0
-DEBUG=0
+DEBUG=1
 
 ARCH= -gencode arch=compute_30,code=sm_30 \
       -gencode arch=compute_35,code=sm_35 \
@@ -21,7 +21,7 @@ EXEC=darknet
 OBJDIR=./obj/
 
 CC=gcc
-CPP=g++
+CPP=g++ -std=c++11
 NVCC=nvcc 
 AR=ar
 ARFLAGS=rcs
@@ -43,8 +43,8 @@ CFLAGS+=$(OPTS)
 ifeq ($(OPENCV), 1) 
 COMMON+= -DOPENCV
 CFLAGS+= -DOPENCV
-LDFLAGS+= `pkg-config --libs opencv` -lstdc++
-COMMON+= `pkg-config --cflags opencv` 
+LDFLAGS+= `pkg-config --libs opencv 2> /dev/null || pkg-config --libs opencv4` -lstdc++
+COMMON+= `pkg-config --cflags opencv 2> /dev/null || pkg-config --cflags opencv4`
 endif
 
 ifeq ($(GPU), 1) 

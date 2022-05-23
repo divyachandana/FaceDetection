@@ -1,5 +1,3 @@
-./training/tello/dataset/41.JPG
-./training/tello/dataset/42.jpg
-./training/tello/dataset/43.JPG
-./training/tello/dataset/44.JPG
-./training/tello/dataset/45.JPG
+./training/tello/dataset/20210514_172833.jpeg
+./training/tello/dataset/afe8ccdc-108c-4077-bf26-4c43d3bf3561.jpeg
+./training/tello/dataset/20210514_172922.jpeg
