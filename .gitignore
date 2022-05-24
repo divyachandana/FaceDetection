@@ -19,7 +19,6 @@ submission/
 cfg/
 darknet
 .fuse*
-training/tello
 
 # OS Generated #
 .DS_Store*
