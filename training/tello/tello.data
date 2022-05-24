@@ -1,5 +1,0 @@
-classes	= 2
-train  	= ./training/tello/train.txt
-valid  	= ./training/tello/test.txt
-names 	= ./training/tello/tello.names
-backup 	= ../drive/MyDrive/facedetection
